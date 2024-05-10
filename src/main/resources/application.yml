@@ -1,0 +1,21 @@
+data:
+  storage:
+    db: true
+spring:
+  application:
+    name: assignment
+  data:
+    mongodb:
+      database: weather
+      host: localhost
+      port: 27017
+#      username:
+#      password:
+server:
+  port: 8080
+external:
+  weather:
+    api:
+      baseUrl: http://api.weatherapi.com/v1/current.json
+      apiKey: 9327956f63154f84b44114814240805
+
